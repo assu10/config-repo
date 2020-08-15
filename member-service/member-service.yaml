@@ -1,8 +1,8 @@
-your.name: "ASSU ASSU DEFAULT Modifyww"
+your.name: "ASSU ASSU DEFAULT Modify"
 spring:
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
-    password: '{cipher}0bd31e9375299a30f36402fb1f569087896ef70f0e07fed15667127b9cbea70d'
+    password: '{cipher}17b3128621cb4e71fbb5a85ef726b44951b62fac541e1de6c2728c6e9d3594ec'
 #    password: guest
