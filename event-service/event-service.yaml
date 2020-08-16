@@ -1,4 +1,4 @@
-your.name: "EVENT DEFAULT"
+your.name: "EVENT DEFAULT.."
 spring:
   rabbitmq:
     host: localhost
