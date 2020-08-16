@@ -1,4 +1,4 @@
-your.name: "MEMBERE DEFAULT"
+your.name: "MEMBER DEFAULT"
 spring:
   rabbitmq:
     host: localhost
