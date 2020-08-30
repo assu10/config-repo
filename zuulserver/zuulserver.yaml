@@ -21,3 +21,6 @@ eureka:
     fetch-registry: true          # 레지스트리 정보를 로컬에 캐싱
     service-url:
       dafaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    event-service: /evt/**
