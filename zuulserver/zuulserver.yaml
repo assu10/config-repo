@@ -36,4 +36,4 @@ hystrix:
             timeoutInMilliseconds: 9000   # 히스트릭스 타임아웃 3초로 설정 (기본 1초)
 event-service:
   ribbon:
-    ReadTimeout: 9000       # 리본 타임아웃 3초로 설정 (기본 5초)
+    ReadTimeout: 3000       # 리본 타임아웃 3초로 설정 (기본 5초)
