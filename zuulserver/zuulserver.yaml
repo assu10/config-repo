@@ -27,3 +27,13 @@ zuul:
   routes:
     event-service: /evt/**
     member-service: /mb/**
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000   # 히스트릭스 타임아웃 3초로 설정 (기본 1초)
+event-service:
+  ribbon:
+    ReadTimeout: 3000       # 리본 타임아웃 3초로 설정 (기본 5초)
