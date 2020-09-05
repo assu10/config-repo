@@ -22,6 +22,7 @@ eureka:
     service-url:
       dafaultZone: http://localhost:8761/eureka/
 
-member:
-  service:
-    id: member-service
+ service:
+  id:
+    member: member-service
+    zuul: zuulserver
