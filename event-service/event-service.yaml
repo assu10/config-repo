@@ -25,4 +25,4 @@ eureka:
 service:
   id:
     member: member-service
-    zuul: zuulserverss
+    zuul: zuulserver
