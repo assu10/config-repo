@@ -37,3 +37,8 @@ hystrix:
 #event-service:
 #  ribbon:
 #    ReadTimeout: 3000       # 리본 타임아웃 3초로 설정 (기본 5초)
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.assu.cloud: DEBUG
