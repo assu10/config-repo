@@ -19,3 +19,8 @@ eureka:
     fetch-registry: false                 # 레지스트리 정보를 로컬에 캐싱하지 않는다. (클러스터 모드가 아니므로)
   server:
     wait-time-in-ms-when-sync-empty: 5    # 서버가 요청을 받기 전 대기할 초기 시간 (5ms, 운영 환경에선 삭제 필요)
+logging:
+  level:
+    com.netflix: WARN
+    org.springframework.web: WARN
+    com.assu.cloud: DEBUG
