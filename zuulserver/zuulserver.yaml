@@ -20,7 +20,7 @@ eureka:
     register-with-eureka: true    # 유레카 서버에 서비스 등록
     fetch-registry: true          # 레지스트리 정보를 로컬에 캐싱
     service-url:
-      dafaultZone: http://localhost:8761/eureka/
+      dafaultZone: http://localhost:8769/eureka/
 zuul:
   ignored-services: '*'       # 유레카 기반 모든 경로 제외
   prefix: /api                # 정의한 모든 서비스에 /api 접두어
