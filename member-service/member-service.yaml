@@ -31,3 +31,8 @@ logging:
 service:
   id:
     zuul: zuulserver
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8901/auth/user    # OAuth2 콜백 URL
