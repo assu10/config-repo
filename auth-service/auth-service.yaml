@@ -28,5 +28,3 @@ logging:
     com.netflix: WARN
     org.springframework.web: WARN
     com.assu.cloud: DEBUG
-signing:
-  key: assusignkey
