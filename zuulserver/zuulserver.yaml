@@ -1,10 +1,10 @@
 your.name: "ZUUL DEFAULT"
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: '{cipher}17b3128621cb4e71fbb5a85ef726b44951b62fac541e1de6c2728c6e9d3594ec'
+#spring:
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: '{cipher}17b3128621cb4e71fbb5a85ef726b44951b62fac541e1de6c2728c6e9d3594ec'
 management:
   endpoints:
     web:
